@@ -1,0 +1,51 @@
+:root{
+    --orangered-color: orangered;
+}
+body{
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: palegoldenrod;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card i{
+    font-size: 25px;
+    color: var(--orangered-color);
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+li a{
+    color: var(--orangered-color);
+    text-decoration: none;
+    
+}
+h3{
+    text-align: center;
+}
+h2 span{
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+    color: var(--orangered-color);
+}
